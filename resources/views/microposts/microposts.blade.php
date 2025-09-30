@@ -28,6 +28,7 @@
                                     <button type="submit" class="btn btn-soft btn-error btn-sm normal-case"
                                         onclick="return confirm('Delete id = {{ $micropost->id }} ?')">Delete</button>
                                 </form>
+
                             @endif
                         </div>
                         @include('user_favorite.favorite_button')
